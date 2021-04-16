@@ -1,0 +1,32 @@
+{
+  "name": "coin-trade-bot",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint --fix src/**/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LunaTK/coin-trade-bot.git"
+  },
+  "author": "LunaTK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LunaTK/coin-trade-bot/issues"
+  },
+  "homepage": "https://github.com/LunaTK/coin-trade-bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "request": "^2.88.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
