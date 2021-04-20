@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/LunaTK/coin-trade-bot#readme",
   "dependencies": {
+    "ccxt": "^1.48.9",
     "dotenv": "^8.2.0",
     "jsonwebtoken": "^8.5.1",
     "request": "^2.88.2",
